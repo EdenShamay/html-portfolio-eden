@@ -1,0 +1,140 @@
+
+body{
+
+
+margin: 0;
+padding: 0;
+height: 100vh;
+
+
+}
+
+header {
+   
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #FBF3B9, #FFDDAE, #fddaa2);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+ 
+
+  
+    font-family: "Sacramento", cursive;
+
+ 
+}
+
+h1 {
+  
+  font-size: clamp(2rem ,6vw ,5rem) ; 
+  color: #000000;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+ .about-me{
+  width: 100%;
+  display: flex;
+  flex-direction: column;           
+  justify-content: flex-start; 
+  align-items: center;    
+  padding: 10%;             
+  background-color: #C6E7FF;
+  
+ 
+}
+
+
+.my-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    background-color: #D4F6FF;
+    padding: 10%;
+    
+}
+
+.skills-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+ 
+}
+
+.link{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+}
+
+footer{
+   
+    width: 100%;  
+    display: flex; 
+    flex-direction: column;             
+    justify-content: center;    
+    align-items: center; 
+    padding-top: 5%;
+    background-color: #FFDDAE;
+
+}
+
+
+h3 {
+  font-family: "Sacramento", cursive;
+  font-weight: 600;
+  font-size: clamp(2rem ,3vw ,4rem) ;  
+  color: #295F98;
+  margin: 3%;
+}
+
+p, ul {
+  text-align: center;
+  font-family: "Roboto Mono", cursive;
+  font-weight: 350;
+  font-style: initial;
+  font-size: clamp(1rem , 1.5vw , 1.25rem);
+
+}
+
+#copy-right-content {
+  font-size: 12px;  
+  padding-top: 2%;
+  color: #295F98;
+}
+
+.btn-sm {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;  
+  gap: 0.5em;               
+  background: #fffbf1;
+  border: none;
+  color: #295F98;
+  font-size: clamp(0.7rem , 1vw , 3rem);   
+}
+
+
+.btn-sm:hover {
+  background: #fbefd1;
+  text-decoration: none;
+  color: #295F98;
+ 
+ 
+}
+
+.btn-sm:active,
+.btn-sm:focus {
+  background: #fffbf1 !important;
+  box-shadow: none !important; 
+  outline: none !important;
+}

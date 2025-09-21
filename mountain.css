@@ -1,0 +1,87 @@
+
+
+.mountain-container{
+    display: flex;
+    position: relative;
+    width: clamp(10rem, 30vw , 20rem);
+    height: 100%;
+    align-items: end;
+    justify-content: end;
+    aspect-ratio: 1 ;
+
+
+}
+
+
+
+.mountain {
+  position: relative;
+  width:60%;
+  height:  40%;
+  background: #B99470; 
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  z-index: 1;
+
+}
+
+.mountain::before , .mountain-left::before {
+  content: "";
+  position: absolute;
+  left: 50%;    
+  width: 50%;    
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+ 
+}
+
+.mountain-left{
+    position: absolute;
+    background:  #B5C18E; ;
+    width: 65%;
+    height: 60%;
+    align-self: flex-end;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-right: 35%;
+
+}
+
+
+.mountain::after ,.mountain-left::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;   
+  background: #ffffff; 
+  clip-path: polygon(
+    50% 0%,   
+    90% 40%, 
+    50% 35%, 
+    20% 70%, 
+    50% 0%   
+  );
+}
+
+.sun{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    align-self: start;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    margin-top: 10%;
+    background: radial-gradient( #f3c23d,#F39E60  , #E16A54 );
+    
+
+}
+
+
+
+
+
+
+
+
+
